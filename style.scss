@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(#f7797d, #fbd786, #c6ffdd);
+	height: 100vh;
+}
+
+.test {
+	padding: 2rem 2rem calc(2rem + 70px);
+	width: 600px;
+	background-color: white;
+	border-radius: 8px;
+	position: relative;
+	h1 {
+		text-align: center;
+		padding: 1rem 0;
+		font-size: 1.5rem;
+		margin-top: 1rem;
+	}
+	h2 {
+		text-align: center;
+		margin: 0.5rem 0 1rem;
+		font-size: 1.2rem;
+		font-weight: 400;
+	}
+
+	.result {
+		text-align: center;
+		font-size: 1.2rem;
+		font-weight: 700;
+	}
+}
+
+ul {
+	list-style: none;
+	li {
+		font-size: 1.2rem;
+		width: 100%;
+	}
+	label {
+		cursor: pointer;
+		width: 100%;
+		display: block;
+		padding: 1rem 0.5rem;
+
+		&:hover {
+			background-color: seashell;
+		}
+	}
+}
+
+button {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 70px;
+	background-color: #8e44ad;
+	color: #fff;
+	border: none;
+	width: 100%;
+	cursor: pointer;
+	font-size: 1.1rem;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	&:hover {
+		background-color: #732d91;
+	}
+}
+
+input {
+	margin-right: 10px;
+}
+
+.pagination {
+	position: absolute;
+	top: 20px;
+	font-size: 1rem;
+}
+
+.right {
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	font-size: 1rem;
+	color: rgb(10, 180, 10);
+	span {
+		color: red;
+	}
+}
